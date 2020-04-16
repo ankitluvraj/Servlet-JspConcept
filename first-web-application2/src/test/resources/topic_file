@@ -1,0 +1,32 @@
+first web application
+expression langauge 
+scriptlet
+disadvantage of using get and through parameter take the password
+how to create form
+and how to redirect multiple jsp page
+form validation like username and password
+redirect to multiple servlet
+how to formate todos list
+
+what is jstl
+ans> jstl java standard tag library,it provide a lot of standard tag that help us 
+to write code in jsp very easily. 
+
+ques: diff between session scope variable and request scope variable 
+
+imp Note: when we send multiple requsest then what ever send in previous reques are lost
+is nothing but what ever attribute thair in earlier request which are lost 
+by the time is next request are send thats the resion why the jsp in will not display name.
+
+
+note: adding functionalaties like hwo to add new functionalaties
+
+note: add delete functionalities in this project
+ 
+
+ 
+
+
+
+ 
+ 
