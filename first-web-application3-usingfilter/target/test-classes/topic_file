@@ -1,0 +1,112 @@
+first web application
+expression langauge 
+scriptlet
+disadvantage of using get and through parameter take the password
+how to create form
+and how to redirect multiple jsp page
+form validation like username and password
+redirect to multiple servlet
+how to formate todos list
+
+what is jstl
+ans> jstl java standard tag library,it provide a lot of standard tag that help us 
+to write code in jsp very easily. 
+
+ques: diff between session scope variable and request scope variable 
+
+imp Note: when we send multiple requsest then what ever send in previous reques are lost
+is nothing but what ever attribute thair in earlier request which are lost 
+by the time is next request are send thats the resion why the jsp in will not display name.
+
+
+note: adding functionalaties like hwo to add new functionalaties
+
+note: add delete functionalities in this project
+ 
+bootstrap :- is a very popular css framework for devloping responsive application
+it is a combination of both which helps us to format the application
+and able to deblop responsive applicaiton
+ so work with bootstrap we need to app web jars like bootstrap and jquery dependencies in pom.xml
+ after that we need to add jar locaiton to jsp page then it will work 
+
+
+
+NOTE:-> PROBLEM when i send the request without login then able to access the page how to solve the problem
+ans-> 
+-> what is the logic we can use?
+
+-> where can we implement the logic ?
+
+
+/*
+:-> Filter:-> java ee provide the filter ,where  interset all the servlet 
+LoginRequestFilter
+*.do
+
+implement like that 
+
+if there is a name in session 
+  we will allow the request go through as usual
+  else 
+  we would redirect to login page 
+
+ques:->hwo to delete logout functionalities
+
+         ------>INPORTANTY THEORY---->
+         
+maven :-> maven is a java build tool when ever if we wnat to do java web application
+then lot of steps that are building the archive
+1> maven install -> compile the all the code 
+2> packging the web app 
+3> this command will create war file
+
+
+
+---------> servlet life cycle ------------>
+
+init() method --------> is executed only once,when the servlet started and when the first request comes init method will we called  
+service() method -----> each of servlet calls service mehtod is called 
+    so it looks as the request method -> see whether is the get request or post request add invoke approprate doget dopost or dodelete method 
+     if those method are not define service method will throw an exception  
+destroy() method------> is executed only once, call when the server is close
+
+    doGet() ---------->
+    doPost()---------->
+    
+ note--> see method hirerchy in predefine class then press fn+f4 then you will see
+ 
+    
+   -------> Architecture of java web application----->
+  
+  Model 1 Architecture(initial version)
+  ====================
+  only have jsp all the things will we thair in jsp page only
+  
+  Model 2 Architecture(MVC)
+  ====================
+  Servlet - controller 
+  jsp   - view
+  Model  - Todo
+  
+  controller ---> control the flow , controller decide which model object to lode ,which model 
+  object to bring in and which view should be reandered
+  
+  --------in Spring mvc ------->
+  Front Controller - spring mvc - Dispatcher servlet
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
