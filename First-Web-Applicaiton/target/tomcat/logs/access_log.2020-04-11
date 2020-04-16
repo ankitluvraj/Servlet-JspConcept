@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [11/Apr/2020:10:18:49 +0530] "GET / HTTP/1.1" 200 238 http-bio-8080-exec-2 3573
+0:0:0:0:0:0:0:1 - - [11/Apr/2020:10:18:50 +0530] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-3 6
+0:0:0:0:0:0:0:1 - - [11/Apr/2020:10:20:33 +0530] "GET /?name=ankit HTTP/1.1" 200 243 http-bio-8080-exec-5 20
+0:0:0:0:0:0:0:1 - - [11/Apr/2020:10:20:49 +0530] "GET /?name=ankit&password=somepassword HTTP/1.1" 200 255 http-bio-8080-exec-7 5
+0:0:0:0:0:0:0:1 - - [11/Apr/2020:10:21:08 +0530] "GET /?name=ankit&password=somepassword HTTP/1.1" 200 255 http-bio-8080-exec-8 9
